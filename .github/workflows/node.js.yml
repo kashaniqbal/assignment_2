@@ -28,5 +28,3 @@ jobs:
     - run: npm run build --if-present
     - run: npm test -- --coverage
     - run: bash <(curl -s https://codecov.io/bash)
-
-
